@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Vermietung und Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen zur Aula-Vermietung und Support</h1>
+        <nav>
+            <a href="/" id="home-button">Home</a>
+            <a href="/support" id="support-button">Support</a>
+            <button id="login-redirect">Zum Login</button>
+        </nav>        
+    </header>
+
+    <main>
+        <!-- Hauptinhalt -->
+        <section id="rental-info">
+            <h2>Aula Vermietung</h2>
+            <p>Hier können Sie die Aula für Veranstaltungen mieten. Bitte füllen Sie das Formular aus:</p>
+            <form id="rental-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Uhrzeit:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit">Buchungsanfrage senden</button>
+            </form>
+        </section>
+
+        <section id="support-section">
+            <h2>Support</h2>
+            <p>Bitte melden Sie sich an, um auf den Support-Bereich zuzugreifen.</p>
+            <button id="login-redirect">Zum Login</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aula Management</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
