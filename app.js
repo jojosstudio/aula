@@ -6,7 +6,7 @@ const redirectTo = (url) => {
 // Login-Weiterleitung
 document.getElementById('login-redirect').addEventListener('click', () => {
     console.log('Button wurde geklickt');
-    redirectTo('/login');
+    redirectTo('/login.html');
 });
 
 
